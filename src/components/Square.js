@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Square=({value})=>{
-    console.log(value);
-    return <button type="button">{value}</button>
+    return <button type="button" className="btn" className="square">{value}</button>
 };
 export default Square;
