@@ -1,0 +1,31 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+button{
+    border: none;
+    background: none;
+    font-size: 2.5rem;
+    /* padding-bottom: 5px; */
+}
+button:hover{
+    cursor: pointer;
+}
+.app{
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.board .board-row .square{
+    width: 80px;
+    height: 80px;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+.board .board-row :last-child{
+    border-right: none;
+}
+.board :last-child .square{
+    border-bottom: none;
+}
